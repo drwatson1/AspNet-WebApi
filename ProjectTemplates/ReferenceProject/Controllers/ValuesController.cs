@@ -44,7 +44,6 @@ namespace ReferenceProject
         /// <summary>
         /// Getting complex type value
         /// </summary>
-        /// <returns></returns>
         [HttpGet]
         [Route("GetComplex")]
         public ComplexType GetComplex()
