@@ -2,6 +2,10 @@
 
 Repository contains ready to use preconfigured project to create fully functional production ready RESTful services.
 
+> Note! If you are looking for a .Net Core project template, please, check out the project [ASP.Net Core RESTful Service Project Template](https://github.com/drwatson1/AspNet-Core-REST-Service).
+
+It contains:
+
 - CORS enabled
 - preconfigured HTTP OPTIONS handler
 - Cache-Control header preconfigured
