@@ -12,7 +12,7 @@ After making any changes do:
 1. Replace the string "ReferenceProject.xml" to "$safeprojectname$.xml" inside it and save the file
 1. Replace a file "MyTemplate.vstemplate" with the one from the project folder with the same name
 1. Add all files from the folder to zip-archive with a name "ASP.Net WebAPI Application with OWIN.zip"
-1. Copy this file to "ProjectTemplates\AspNet.WebApi\ReferenceProject\ReferenceProjectVSIX\ProjectTemplates\CSharp\Web" folder and replace an existing one
+1. Copy this file to "ProjectTemplates\ReferenceProjectVSIX\ProjectTemplates\CSharp\Web" folder and replace an existing one
 1. Go to VS, expand a ReferenceProjectVSIX project and double click on a "source.extension.vsixmanifest" file
 1. Increase minor version number on the tab "Metadata" in the top right corner
 1. Rebuild the ReferenceProjectVSIX project and get "ASP.Net WebAPI Application Project Template.vsix"
