@@ -15,8 +15,8 @@
     <Icon>__TemplateIcon.ico</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <LanguageTag>C#</LanguageTag>
-    <PlatformTag>Windows</PlatformTag>
-    <ProjectTypeTag>Web</ProjectTypeTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>web</ProjectTypeTag>
     <ProjectTypeTag>RESTful Service</ProjectTypeTag>
     <ProjectTypeTag>WebAPI2</ProjectTypeTag>
   </TemplateData>
