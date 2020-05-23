@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>ASP.Net WebAPI Application with OWIN</Name>
-    <Description>Project template to create production-ready RESTful service based on ASP.Net WebAPI and OWIN. It contains preconfigured DI-container, logging, CORS, JWT-bearer authentication, boilerplate code and other features</Description>
+    <Description>Project template to create production-ready RESTful service based on ASP.Net WebAPI and OWIN. It contains Swagger documentation, preconfigured DI-container, logging, CORS, JWT-bearer authentication, boilerplate code and other features</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
