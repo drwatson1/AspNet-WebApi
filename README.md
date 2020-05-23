@@ -4,7 +4,7 @@ Repository contains ready to use preconfigured project to create fully functiona
 
 > Note! If you are looking for a .Net Core project template, please, check out the project [ASP.Net Core RESTful Service Project Template](https://github.com/drwatson1/AspNet-Core-REST-Service).
 
-The template uses the 4.7.1 version of .Net Framework. Make sure that you have it installed before using the template.
+The template uses the 4.7.1 version of .Net Framework. Make sure that you have it installed before use the template.
 
 **Contains**
 
