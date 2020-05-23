@@ -16,12 +16,18 @@ namespace ReferenceProject
         /// This is the object's key
         /// </summary>
         public string Value { get; set; }
+        /// <summary>
+        /// A sting values which has the null value
+        /// </summary>
         public string NullValue { get; set; } = null;
+        /// <summary>
+        /// Some integer value
+        /// </summary>
         public int IntValue { get; set; } = 0;
     }
 
     /// <summary>
-    /// Example
+    /// An example of controller
     /// </summary>
     public class ValuesController : ApiController
     {
@@ -34,6 +40,10 @@ namespace ReferenceProject
             Logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
+        /// <summary>
+        /// Get all of the values
+        /// </summary>
+        /// <returns></returns>
         // GET <controller>
         public IEnumerable<string> Get()
         {
@@ -42,7 +52,7 @@ namespace ReferenceProject
         }
 
         /// <summary>
-        /// Getting complex type value
+        /// Get a complex type value
         /// </summary>
         [HttpGet]
         [Route("GetComplex")]
@@ -51,6 +61,9 @@ namespace ReferenceProject
             return new ComplexType() { Key = "Key", Value = "Value" };
         }
 
+        /// <summary>
+        /// Always throw an exception
+        /// </summary>
         [HttpGet]
         [Route("ThrowException")]
         public void ThrowException()
@@ -58,6 +71,11 @@ namespace ReferenceProject
             throw new Exception("Example exception");
         }
 
+        /// <summary>
+        /// Get a value by id
+        /// </summary>
+        /// <param name="id">The value identifier</param>
+        /// <returns>Requested value</returns>
         // GET <controller>/5
 #pragma warning disable RECS0154 // Parameter is never used
         public string Get(int id)
@@ -66,6 +84,10 @@ namespace ReferenceProject
             return "value";
         }
 
+        /// <summary>
+        /// Create a new value
+        /// </summary>
+        /// <param name="value">New value</param>
         // POST <controller>
 #pragma warning disable RECS0154 // Parameter is never used
         public void Post([FromBody]string value)
@@ -73,6 +95,11 @@ namespace ReferenceProject
         {
         }
 
+        /// <summary>
+        /// Update the previously created value
+        /// </summary>
+        /// <param name="id">The value identifier</param>
+        /// <param name="value">New value</param>
         // PUT <controller>/5
 #pragma warning disable RECS0154 // Parameter is never used
 #pragma warning disable RECS0154 // Parameter is never used
@@ -82,6 +109,10 @@ namespace ReferenceProject
         {
         }
 
+        /// <summary>
+        /// Remove the earlier created value
+        /// </summary>
+        /// <param name="id">The value identifier</param>
         // DELETE <controller>/5
 #pragma warning disable RECS0154 // Parameter is never used
         public void Delete(int id)
