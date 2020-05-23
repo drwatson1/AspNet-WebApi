@@ -25,6 +25,7 @@ The template uses the 4.7.1 version of .Net Framework. Make sure that you have i
 
 **Getting Started**
 
+1. Make sure you have the .Net Framework v4.7.1 installed
 1. Install the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=sergey-tregub.asp-net-web-api-owin-template) or download and install the latest version from the [GitHub](https://github.com/drwatson1/AspNet-WebApi/releases). Also, you can install it from Visual Studio. To do so click on "Tools/Extensions and Updates..." menu item, then select "Online/Visual Studio Marketplace/Templates" on the left pane, search for "ASP.Net WebAPI Application Project Template," select it and click "Download" button.
 1. Restart Visual Studio
 1. Click on "File/New Project..." menu item
